@@ -1,0 +1,64 @@
+body {
+    font-family: cursive;
+    color: black;
+}
+
+td {
+    background-color: #F386BF;
+    border: 10px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.indent {
+    right: 9em;
+}
+
+.below {
+    color: darkslategrey;
+    font-size: smaller;
+    margin-left: 30vw;
+}
+
+.descbox {
+    border: none 10px;
+    max-width: 30vw;
+    background-color: #E43F96;
+    color: #F386BF;
+    margin-left: 30vw;
+}
+
+.descbox h1 {
+    color: #DA3080;
+}
+
+#content {
+    position: absolute;
+    left: 9em;
+}
+
+#topbar {
+    position: sticky;
+    background-color: #FFF368;
+    top: 0px;
+    padding: 0.5em;
+    width: 86vw;
+}
+
+#sidebar {
+    position: fixed;
+    background-color: #E43F96;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 7em;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+
+#tierlist {
+    border: 10px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #F386BF;
+}
